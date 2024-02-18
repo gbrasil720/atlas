@@ -1,30 +1,15 @@
-# React + TypeScript + Vite
+# Atlas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is an app that uses the OpenIA API to generate images based on a specific text prompt
 
-Currently, two official plugins are available:
+Currently, a couple of features are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[x] Generate images using the OpenIA API
+[x] Copy generated image link to the clipboard
 
-## Expanding the ESLint configuration
+## Project images
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<img src='https://media.discordapp.net/attachments/889243010360041576/1208843850031038495/image.png?ex=65e4c291&is=65d24d91&hm=d55f441ce8ea739990dc877385fcfbba324e0eb77bbdc71b731d78f7c14b73c4&=&format=webp&quality=lossless&width=909&height=468' alt='initial state'/>
+<img src='https://media.discordapp.net/attachments/889243010360041576/1208844030708809818/image.png?ex=65e4c2bc&is=65d24dbc&hm=b86a1fdb506e304b3bf1accc6b3bfbcdc4298a66005d877690ab3624b77ed68c&=&format=webp&quality=lossless&width=909&height=468'  alt='creating image'/>
+<img src='https://media.discordapp.net/attachments/889243010360041576/1208844175232213032/image.png?ex=65e4c2de&is=65d24dde&hm=0a00e4bf146626e3c386e180c50a96d55a43f96f251036c6e48b7170d700e2cf&=&format=webp&quality=lossless&width=944&height=468' alt='image created'/>
+<img src='https://media.discordapp.net/attachments/889243010360041576/1208844296753774592/image.png?ex=65e4c2fb&is=65d24dfb&hm=fa5909503d81eb949dde236f572f7282cb8d9750240ee00d304d039813cd3d1c&=&format=webp&quality=lossless&width=909&height=468' alt='image and link reveal'/>
