@@ -4,8 +4,8 @@ This is an app that uses the OpenIA API to generate images based on a specific t
 
 Currently, a couple of features are available:
 
-[x] Generate images using the OpenIA API
-[x] Copy generated image link to the clipboard
+- [x] Generate images using the OpenIA API
+- [x] Copy generated image link to the clipboard
 
 ## Project images
 
