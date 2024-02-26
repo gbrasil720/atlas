@@ -6,7 +6,7 @@ import { Toaster } from './components/ui/toaster.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <Toaster />,
+    <Toaster />
     <App />
   </React.StrictMode>
 )
